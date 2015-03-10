@@ -704,6 +704,9 @@ function creation_success_message() {
 	echo "URL:       $domain"
 	echo "Username:  $username"
 	echo "Password:  $password"
+	
+	# make terminal go to newly created sites directory
+	cd $path/www/$site
 }
 
 function create_site() {
